@@ -9,6 +9,11 @@ package javagitrpg;
  *
  * @author Formation
  */
-public class Warrior {
-    
+public class Warrior extends Personnage{
+
+    public Warrior() {
+    }
+    public void combattre(){
+        System.out.println("Wololoooooooooooooooooooooooooooooooo Wololoooooooooooooooooooooooooooo");
+    }
 }
